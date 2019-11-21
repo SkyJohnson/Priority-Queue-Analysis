@@ -1,0 +1,25 @@
+ArrayPriQueue: 
+Offer() with n = 100000: 450279957ns 
+Poll()  with n = 100000: 86466ns 
+Offer() with n = 200000: 1632963039ns 
+Poll()  with n = 200000: 101947ns 
+Offer() with n = 400000: 5781843192ns 
+Poll()  with n = 400000: 157829ns 
+
+
+UnorderedPriQueue: 
+Offer() with n = 100000: 4546830ns 
+Poll()  with n = 100000: 5363914ns 
+Offer() with n = 200000: 8296963ns 
+Poll()  with n = 200000: 703433ns 
+Offer() with n = 400000: 38488332ns 
+Poll()  with n = 400000: 10179582ns 
+
+
+HeapPriQueue: 
+Offer() with n = 100000: 19268331ns 
+Poll()  with n = 100000: 27564ns 
+Offer() with n = 200000: 16740050ns 
+Poll()  with n = 200000: 84578ns 
+Offer() with n = 400000: 51744821ns 
+Poll()  with n = 400000: 9061ns 
